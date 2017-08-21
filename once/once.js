@@ -1,6 +1,4 @@
-'use strict'
-
-module.exports = fn => {
+const once = fn => {
   let functionHasBeenCalled = false
 
   return (...args) => {

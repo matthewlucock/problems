@@ -1,5 +1,3 @@
-'use strict'
-
 const flattenMultidimensionalArray = array => {
   const resultantArray = []
 
@@ -13,5 +11,3 @@ const flattenMultidimensionalArray = array => {
 
   return resultantArray
 }
-
-module.exports = flattenMultidimensionalArray
